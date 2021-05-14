@@ -1,0 +1,2 @@
+# ec2-insta-scheduler
+EC2 is one of the most popular computing service in AWS. mANY EC2 are launched for devops, secops and production purpose but keep on running idle. This in-cures significant coast of computing. ec2-insta-scheduler is simple but very robust automated service which stops idle EC2 instances outside work hours and restarts EC2 instances during work hours. I used AWS resources such as Cloudformation to automate the system which uses Cloudwatch, DynamoDB and others services
